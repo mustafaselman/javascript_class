@@ -108,3 +108,109 @@
 //     }
 // ))
 // alfabetik sıralama type a göre
+
+// array iteration (döngüler)
+
+// const numbers = [45, 4, 9, 16, 25]
+// numbers.forEach(
+//     function myFunction (value, index, array) {
+//         console.log(`${array} dizisi`);
+//         console.log(`${index} numaralı eleman ${value}`)
+//     }
+// )
+// const numbers = [45, 4, 9, 16, 25]
+// numbers.forEach(
+//     function myFunction (a,b) {
+//         let deger = a;
+//         console.log(deger)
+//         // console.log(`${b} index ${a} value`)
+//     }
+// )
+    
+// const numbers1 = [45, 4, 9, 16, 25]
+// const numbers2 = numbers1.map(myFunction);
+
+// function myFunction(value, index, array) {
+//     return value * 2 ;
+// }
+// console.log(numbers2)
+
+// const numbers1 = [45, 4, 9, 16, 25]
+// const numbers2 = numbers1.map(myFunction);
+
+// function myFunction(value, index, array) {
+//     return value * index ;
+// }
+// console.log(numbers2)
+
+// const numbers1 = [45, 4, 9, 16, 25]
+// const numbers2 = numbers1.map(myFunction);
+
+// function myFunction(value, index, array) {
+//     return value + 1 ;
+// }
+// console.log(numbers2)
+
+// const number = [45, 4, 9, 16, 25]
+// const over18 = number.filter(myFunction)
+
+// function myFunction (value,index,array) {
+//     return value > 18 ;
+// }
+
+// console.log(over18)
+
+// const number = [45, 4, 9, 16, 25]
+// const over18 = number.filter(myFunction)
+
+// function myFunction (value,index,array) {
+//     return index > 1 ;
+// }
+
+// console.log(over18)
+
+// const fruits = ["Apple","Orange","Kiwi","Mango"]
+// let position = fruits.indexOf("Apple") + 1
+// console.log(position)
+
+// let position2 = fruits.indexOf("Aple")
+// console.log(position2)
+
+// if(fruits.indexOf("Aple") < 0)
+// {
+//     console.log("böyle bir eleman yoktur")
+// }
+
+// const numbers = [4,9,16,25,29]
+// let first = numbers.find(myFunction)
+
+// function myFunction (value,index,array) {
+//     return value > 18
+// }
+
+// console.log(first)
+
+// const numbers = [4,9,16,25,29]
+// let first = numbers.findIndex(myFunction)
+
+// function myFunction (value,index,array) {
+//     return value > 18
+// }
+
+// console.log(first)
+
+// const array = Array.from("Tüm string diziye çevrilecek")
+// console.log(array)
+
+// const fruits = ["Banana","Orange","Apple","Mango"]
+// console.log(fruits.includes("Mangos"))
+
+// if(fruits.includes("Mango"))
+// {
+//     console.log("bu eleman dizide bulunmaktadır")
+// }
+
+const cars = ["volvo","bmw"]
+cars[0] = "toyota"
+cars.push("audi")
+// cars = ["toyota","fiat"] // bu eklemeyi yapamıyoruz
