@@ -35,7 +35,7 @@
 
 //switch 
 
-switch(8) {
+switch(new Date().getDay()) {
     case 0:
         day = "Pazar";
         break;
