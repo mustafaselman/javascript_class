@@ -26,19 +26,18 @@
 // }
 // f1();
 
-async function test(data){
-    let promise = new Promise((resolve,reject) => {
-        setTimeout(()=> {
-            if(data) {
-                resolve("bu bir değerdir")
-            } else {
-                reject("bu bir değer değildir")
-            }
-        },4000)
-    });
-    console.log("promise bekleniyor")
-    let response = await promise;
-    console.log("promise bitti")
-    return response
-}
-test(null).then(resolve => console.log(resolve),reject => console.log(reject));
+// async function test(data){
+//     let promise = new Promise((resolve,reject) => {
+//         setTimeout(()=> {
+//             if(data) {
+//                 resolve("bu bir değerdir")
+//             } else {
+//                 reject("bu bir değer değildir")
+//             }
+//         },4000)
+//     });
+//     console.log("promise bekleniyor")
+//     let response = await promise;
+//     return response
+// }
+// test("null").then(resolve => console.log(resolve),reject => console.log(reject));
